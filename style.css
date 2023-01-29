@@ -125,13 +125,6 @@ header img{
     transition: background-color 0.3s  100ms
 }
 
-.btn.yes:active{
-    padding: 17.45px ;
-}
-
-.btn.no:active{
-    padding: 17.45px ;
-}
 
 .btn.yes:hover{
     background-color: #DBFFF4;
