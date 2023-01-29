@@ -1,0 +1,155 @@
+/* RESET CONFIG */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem; /* 1 rem = 10px */
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%; /* Essa configuração vai transformar: 1 rem = 10px - Então para converter um pixel em rem, eu uso os decimais.*/
+}
+
+button{
+    cursor: pointer;
+}
+
+a {
+    color: inherit; 
+}
+
+/* MAIN CSS */
+
+body{
+    padding: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 55rem ;
+    height: 8.1rem;
+}
+
+header img{
+    max-height: 3.4rem;
+}
+
+#logo {
+    max-height: 4.2rem;
+}
+
+.main{
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+.main-photo{
+    max-width: 55rem;
+    position: relative;
+}
+
+.choice-badge {
+    
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 26rem ;
+    left: 1rem;
+    top: 8rem;
+}
+
+.text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 2rem 1.6rem;
+}
+
+.text h1{
+    font-weight: 600;
+    font-size: 3.2rem ;
+    color: white;
+    
+}
+
+.text p{
+    font-weight: normal;
+    font-size: 2.4rem ;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+/* BUTTONS */
+
+.select-buttons{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+
+.select-buttons .btn{
+    width: 9rem;
+    height: 9rem;
+    padding: 21.45px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1rem 1rem 2rem 1rem;
+    box-shadow: 5px 4px 26px -7px rgba(0,0,0,0.28);
+    cursor:pointer
+    
+}
+
+#yesimg{
+    margin-top: 0.5rem;
+    
+}
+
+#noimg{
+   
+    width: 4.5rem;
+}
+
+.btn.yes{
+    transition: background-color 0.3s  100ms
+}
+
+.btn.yes:active{
+    padding: 17.45px ;
+}
+
+.btn.no:active{
+    padding: 17.45px ;
+}
+
+.btn.yes:hover{
+    background-color: #DBFFF4;
+}
+
+.btn.no {
+    transition: background-color 0.3s  100ms
+}
+
+.btn.no:hover {
+    background-color: #FFE7EF;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: inline-block;
+}
+
